@@ -1,21 +1,32 @@
 <?php
 //1
 
-function sum($max) {
+/*function sum($max) {
     
-    return $max * $max;
+    return $max * 2;
 }
 echo sum(10);
+echo "\n";*/
+
+function sum($max) {
+    
+    echo $max * 2;
+}
+sum(10);
 echo "\n";
-
 //2
-
+/*
 function f($a,$b){
     return $a + $b;
 }
 echo f(2,3);
 echo "\n";
-
+*/
+function f($a,$b){
+    echo $a + $b;
+}
+f(2,3);
+echo "\n";
 //3
 
 /*function a($arr) {
